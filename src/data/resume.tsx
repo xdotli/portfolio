@@ -227,14 +227,14 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://llm.report",
+          href: "https://github.com/xdotli/csc3160-final",
           icon: <Icons.globe className="size-3" />,
         },
-        {
-          type: "Source",
-          href: "https://github.com/dillionverma/llm.report",
-          icon: <Icons.github className="size-3" />,
-        },
+        // {
+        //   type: "Source",
+        //   href: "https://github.com/dillionverma/llm.report",
+        //   icon: <Icons.github className="size-3" />,
+        // },
       ],
       // image: "",
       // video: "https://cdn.llm.report/openai-demo.mp4",
