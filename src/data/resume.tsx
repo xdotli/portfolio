@@ -8,7 +8,7 @@ export const DATA = {
   location: "Alameda, CA",
   locationLink: "https://www.google.com/maps/place/alameda",
   description:
-    "Full-stack engineer, AI engineer. Prev founder, student. Love building things, especially love building with great people. ",
+    "Full-stack engineer, AI engineer, student. Prev founder. Love building things, especially love building with great people. ",
   summary:
     "Currently I'm working at Tesla and studying CS at SJSU. I used to work at Red Hat and Dolby, and was the founding engineer and tech lead at Kimi.ai and Renter.co.  ",
   avatarUrl: "/me.jpeg",
