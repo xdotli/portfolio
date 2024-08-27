@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "Full-stack engineer, AI engineer, student. Prev founder. Love building things, especially love building with great people. ",
   summary:
-    "Currently I'm working at Tesla and studying CS at SJSU. I used to work at Red Hat and Dolby, and was the founding engineer and tech lead at Kimi.ai and Renter.co.  ",
+    "Currently I'm working at OmniAI. I used to work at Tesla, Red Hat and Dolby, and was the founding engineer and tech lead at Kimi.ai and Renter.co.  ",
   avatarUrl: "/me.jpeg",
   skills: [
     "React",
@@ -68,6 +68,18 @@ export const DATA = {
 
   work: [
     {
+      company: "OmniAI",
+      href: "https://getomni.ai",
+      badges: [],
+      location: "San Fan, CA",
+      title: "Founding Engineer #1",
+      logoUrl: "/omniai.webp",
+      start: "Aug 2024",
+      end: "Now",
+      description:
+        "First employee. Hacking unstructurd data with Python and TypeScript. ",
+    },
+    {
       company: "Tesla",
       href: "https://tesla.com",
       badges: [],
@@ -75,7 +87,7 @@ export const DATA = {
       title: "Software Engineer",
       logoUrl: "/TSLA.svg",
       start: "May 2024",
-      end: "Now",
+      end: "Aug, 2024",
       description:
         "Iterated UI and API features for Tesla Rental app using Angular and .NET. Migrated the entire Tesla Invoicing app from legacy design systems to tesla design system. Upgraded Angular 8 to Angular 15. Made refinements to the Tesla Design System. ",
     },
