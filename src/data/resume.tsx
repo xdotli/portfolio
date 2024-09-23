@@ -8,7 +8,7 @@ export const DATA = {
   location: "Alameda, CA",
   locationLink: "https://www.google.com/maps/place/alameda",
   description:
-    "Full-stack engineer, AI engineer, student. Prev founder. Love building things, especially love building with great people. ",
+    "Full-stack engineer, AI engineer, prev founder. Love building things, especially love building with great people. ",
   summary:
     "Currently I'm working at OmniAI. I used to work at Tesla, Red Hat and Dolby, and was the founding engineer and tech lead at Kimi.ai and Renter.co.  ",
   avatarUrl: "/me.jpeg",
@@ -77,7 +77,7 @@ export const DATA = {
       start: "Aug 2024",
       end: "Now",
       description:
-        "First employee. Hacking unstructurd data with Python and TypeScript. ",
+        "First employee. Hacking unstructurd data with Python and TypeScript. Check our Zerox package for OCR with GPT-4o-mini at github.com/getomni-ai/zerox! ",
     },
     {
       company: "Tesla",
