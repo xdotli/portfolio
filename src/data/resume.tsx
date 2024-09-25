@@ -92,11 +92,11 @@ export const DATA = {
         "Iterated UI and API features for Tesla Rental app using Angular and .NET. Migrated the entire Tesla Invoicing app from legacy design systems to tesla design system. Upgraded Angular 8 to Angular 15. Made refinements to the Tesla Design System. ",
     },
     {
-      company: "Kimi.ai",
+      company: "Kimi AI",
       badges: [],
       href: "https://apps.apple.com/us/app/kimi-ai-anime-voice-chat/id6478798034",
       location: "San Jose, Fremont",
-      title: "Founding Engineer",
+      title: "Co-founder & CTO",
       logoUrl: "/imaginix_logo.jpeg",
       start: "Nov 2023",
       end: "Feb 2024",
