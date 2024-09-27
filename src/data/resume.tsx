@@ -9,8 +9,7 @@ export const DATA = {
   locationLink: "https://www.google.com/maps/place/alameda",
   description:
     "Founder, AI engineer, full-stack engineer. Love building things, especially love building with great people. ",
-  summary:
-    "Currently I'm working at OmniAI. I used to work at Tesla, Red Hat and Dolby, and was the founding engineer and tech lead at Kimi.ai and Renter.co.  ",
+  summary: "Building benchmarkthing.com.  ",
   avatarUrl: "/me.jpeg",
   skills: [
     "React",
