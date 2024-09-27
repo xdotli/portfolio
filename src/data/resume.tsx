@@ -8,7 +8,7 @@ export const DATA = {
   location: "Alameda, CA",
   locationLink: "https://www.google.com/maps/place/alameda",
   description:
-    "Full-stack engineer, AI engineer, prev founder. Love building things, especially love building with great people. ",
+    "Founder, AI engineer, full-stack engineer. Love building things, especially love building with great people. ",
   summary:
     "Currently I'm working at OmniAI. I used to work at Tesla, Red Hat and Dolby, and was the founding engineer and tech lead at Kimi.ai and Renter.co.  ",
   avatarUrl: "/me.jpeg",
@@ -68,6 +68,18 @@ export const DATA = {
 
   work: [
     {
+      company: "Benchmarkthing",
+      href: "https://Benchmarkthing.com",
+      badges: [],
+      location: "San Fan, CA",
+      title: "Co-founder",
+      logoUrl: "",
+      start: "Sep 2024",
+      end: "Now",
+      description:
+        "If you every find running benchmarks or evals for your ML or LLM models, RAGs, agentic workflows, embedding models, etc. then you might want use this. Sign up at benchmarkthing.com. ",
+    },
+    {
       company: "OmniAI",
       href: "https://getomni.ai",
       badges: [],
@@ -75,9 +87,9 @@ export const DATA = {
       title: "Founding Engineer #1",
       logoUrl: "/omniai.webp",
       start: "Aug 2024",
-      end: "Now",
+      end: "Sep 2024",
       description:
-        "First employee. Hacking unstructurd data with Python and TypeScript. Check our Zerox package for OCR with GPT-4o-mini at github.com/getomni-ai/zerox! ",
+        "Data pipelines, AI SDKs, full-stack features, open-source maintainer. ",
     },
     {
       company: "Tesla",
