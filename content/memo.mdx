@@ -4,51 +4,28 @@ publishedAt: "2024-10-20"
 summary: "How we think of the product"
 ---
 
-TLDR version [here](https://docs.google.com/document/d/1EfhnjMb41yeP8rz4shdePB98J4BPb9HXkbUTZ3TNc50/edit?tab=t.0)
-
-**Benchmarkthing Memo - Xiangyi Li and Moritz Wallawitsch**
+Benchmarkthing Memo - Xiangyi Li and Moritz Wallawitsch
 
 **Intro**
 
-Benchmarkthing starts off as a platform of evals and workflows, with a standardized cloud environment to execute them. It aims to become a consumer-facing stateful execution cloud for all orchestrated AI workflows. We want everyone—from developers to non-technical people—to be able to spin up a VM and execute certain tasks with just a sentence.
+Benchmarkthing begins as an eval and workflow platform with a standardized cloud environment for execution. Our goal is to become a consumer-facing agent cloud for orchestrated AI workflows, enabling both developers and non-technical users to execute tasks easily.
 
-However, the path from A (eval platform) to B (agent cloud) might seem abrupt. A is about giving people some recipes, whereas B is about providing people with outcomes. Below, I will explain why we start from A and how we transition to B, supported by a few key insights.
+The path from an eval platform (A) to an agent cloud (B) may seem abrupt, but it's a natural progression. Below, we explain why we start from A and how we transition to B.
 
-**Insights**
+**Key Insights** (Lemmas)
 
-- **AI Will Make Traditional Software Obsolete:** Software as we know it today (SaaS, tools, travel websites, etc.) will soon be past tense with AI taking over. In this AI-driven future, models become the product, and services replace software. People won't buy tools anymore; they'll hire agents to deliver results.
+AI will make traditional SaaS past-tense. Models become the product, and people will hire outcome-generating agents instead of buying tools.
 
-- **Service Is the New Software:** In the future, individuals will no longer purchase software tools to perform tasks. Instead, they will use AI agents that directly achieve their desired outcomes. These agents will replace traditional tools by offering services as outcomes—like hiring an expert to solve a problem rather than buying the tools needed to solve it.
+Generic, NPC-like AI won't suffice. The future lies in customizable, domain-specific agents tailored to user needs. People want chef-cooked risottos rather than off-the-shelf frozen meals.
 
-- **Generic LLMs Won't Suffice:** Current large language models are like off-the-shelf products—limited in flexibility and applicability. In contrast, domain-specific and customizable models will be key. Agents will be tailored to user needs—more akin to chef-cooked meals rather than frozen dinners.
+Agents are like code. Every human being will own several agents because we all use things in a slightly different way, and with the agent orchestration cloud everyone will be able to modify the agents. For the 340 million people in the US, there will be at least 3.4 billion agents.
 
-- **Every User Will Own Personalized Agents:** The landscape of agents won't consist of one standard solution per domain. Instead, there will be billions of personalized agents, each tailored to its owner’s specific requirements. This long-tail effect means our agent orchestration cloud will cater to diverse, niche requirements—like personalized software used uniquely by each user.
-
-But before we get there, we need AI evals to establish a foothold for both LLM systems and AI infrastructure.
+But before we get there, we need AI evals to establish a foothold for both LLM systems and AI infra. Current agent marketplace (Coze AI, LlamaIndex) will die before the ‘Agent is the future’ becomes reality.
 
 **Product Strategy**
 
-**Step 1: AI Eval and Workflow Platform + Execution Runtime**  
-We begin with an eval platform and execution runtime for two reasons:
+Step 1: Host and execute evals and workflows. We start with an eval platform to address the urgent demand for AI evaluation tools. It forms the foundation for workflow standardization, infra building, and gets us to PMF before we die building something 5 years too early.
 
-1. **Immediate Demand:** The need for evaluation tools is urgent and growing rapidly as AI adoption increases.
-2. **Foundational Value:** This establishes a strong foundation for the next steps, enabling us to gain traction and credibility in the market. By becoming the go-to for AI evals, we lay the groundwork for workflow standardization.
+Step 2: Orchestrate workflows and evals for developers. Next, we add a master AI node to identify and execute workflows based on user input, creating a seamless experience. Users can simply describe tasks, and our platform will find, iterate, and execute the right workflows.
 
-For example, we've seen companies like Trellis successfully use our current platform for PDF-to-SQL pipeline evals, which saved them considerable time and effort. The demand for these capabilities is clear, and we are uniquely positioned to deliver them.
-
-**Step 2: Orchestration Cloud with a Master AI Node**  
-In Step 1, we build cloud-native workflows and evaluation processes. We then take it a step further by adding a master AI node capable of taking user input, identifying the appropriate workflow, and customizing it. For instance, a user might type `bench run 'optimize marketing campaign'`. The AI node will spin up a VM, find relevant workflows, iterate on them, and return a ready-to-use solution, available with a simple call like `bench.run('workflow-123')`.
-
-This step introduces the orchestration capabilities that underpin our agent cloud vision. The master AI node’s ability to integrate workflows and evaluate them autonomously provides the backbone for moving from evals to functional AI orchestration.
-
-**Step 3: Reliable Agent for Everyone**  
-Finally, we make the transition to a consumer-facing agent cloud. By this stage, our cloud-native workflows will be thoroughly tested and reliable, achieving a 98% success rate. This will enable us to serve non-technical users with personalized agents that can perform complex tasks—for example, planning a multi-city trip to Japan by referencing favorite travel blogs, past conversations, and optimizing flights and hotels.
-
-In this future, agents become collaborators, communicating and integrating across domains in ways traditional software never could. Imagine an agent cloud where agents work together much like colleagues on Slack—sharing information, running evaluations, and delivering complex solutions seamlessly. This inter-agent communication is key to our differentiation.
-
-**Why This Approach?**
-
-Starting with evals allows us to build a critical foothold in the AI ecosystem. We establish reliability and trust, both with developers who require sophisticated evaluations and with the broader AI community. From there, we build up the orchestration capabilities that pave the way for a personalized agent cloud—not as an abrupt leap, but as an organic growth built on a solid foundation.
-
-In short, Benchmarkthing evolves from an essential developer tool to a universally accessible agent cloud, empowering users across all levels of technical ability.
-
+Step 3: Distribute agents to everyone. Once workflows are reliable (98% success rate), we launch a consumer-facing agent app store. Users will have personalized agents to perform complex tasks, such as planning a multi-city trip by integrating multiple data sources. Agents will communicate like colleagues, delivering solutions beyond traditional software capabilities.
