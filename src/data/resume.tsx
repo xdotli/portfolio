@@ -75,7 +75,7 @@ export const DATA = {
       start: "Sep 2024",
       end: "Now",
       description:
-        "If you every find running benchmarks or evals for your ML or LLM models, RAGs, agentic workflows, embedding models, etc. then you might want use this. Sign up at benchmarkthing.com. ",
+        "If you ever find running benchmarks or evals for your ML or LLM models, RAGs, agentic workflows, embedding models, etc. then you might want use this. Sign up at benchmarkthing.com. ",
     },
     {
       company: "OmniAI",
