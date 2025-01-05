@@ -5,11 +5,11 @@ export const DATA = {
   name: "Xiangyi Li",
   initials: "XL",
   url: "https://www.xiangyi.li",
-  location: "Alameda, CA",
-  locationLink: "https://www.google.com/maps/place/alameda",
+  location: "San Jose, CA",
+  locationLink: "https://www.google.com/maps/place/san+jose",
   description:
-    "Founder, AI engineer, full-stack engineer. Love building things, especially love building with great people. ",
-  summary: "Building benchmarkthing.com.  ",
+    "Student. Love building things, especially love building with great people. ",
+  summary: "AI Benchmarks.",
   avatarUrl: "/me.jpeg",
   skills: [
     "React",
@@ -65,18 +65,6 @@ export const DATA = {
   },
 
   work: [
-    {
-      company: "Benchmarkthing",
-      href: "https://Benchmarkthing.com",
-      badges: [],
-      location: "San Fan, CA",
-      title: "Co-founder",
-      logoUrl: "",
-      start: "Sep 2024",
-      end: "Now",
-      description:
-        "If you ever find running benchmarks or evals for your ML or LLM models, RAGs, agentic workflows, embedding models, etc. then you might want use this. Sign up at benchmarkthing.com. ",
-    },
     {
       company: "OmniAI",
       href: "https://getomni.ai",
