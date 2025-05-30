@@ -113,44 +113,12 @@ export const DATA = {
       description:
         "Built OpenShift Plugins with Golang and K8s APIs. Built features and e2e tests in OpenShift web console with React, Golang, and Cypress. Impacted 2 releases + 100M+ users on our infra. ",
     },
-    {
-      company: "Renter.co",
-      href: "https://web.archive.org/web/20211204142705/https://cide.cuhk.edu.cn/en/node/650",
-      badges: [],
-      location: "Shenzhen, China",
-      title: "Founding Member",
-      logoUrl: "/renter.jpeg",
-      start: "Mar 2021",
-      end: "Dec 2021",
-      description:
-        "Built an on-campus rental platform using Next.js and MySQL. Launched on two campuses with 2k users, generating 2k in revenue monthly. ",
-    },
-    {
-      company: "Wholeselect.co",
-      href: "https://www.linkedin.com/company/grosiraja/",
-      badges: [],
-      location: "Toronto, ON",
-      title: "Software Engineer",
-      logoUrl: "/grosiraja_logo.jpeg",
-      start: "May 2020",
-      end: "Dec 2020",
-      description:
-        "Designed and built multiple large-scale web crawlers with Puppeteer and GCP, with sophisticated bot deetection circumventing scripts. Built APIs in Java to CRUD scraped data. Investigated operation team's pain points in using the crawler tool and improved the tool's usability. ",
-    },
   ],
   education: [
     {
-      school: "Buildspace",
-      href: "https://buildspace.so",
-      degree: "s5",
-      logoUrl: "/buildspace.jpg",
-      start: "2024",
-      end: "2024",
-    },
-    {
       school: "San José State University",
       href: "https://sjsu.edu",
-      degree: "Master's Degree of Computer Science (MSCS)",
+      degree: "Master's Degree of Computer Science",
       logoUrl: "/sjsu.svg",
       start: "2023",
       end: "2024",
@@ -158,7 +126,7 @@ export const DATA = {
     {
       school: "Chinese University of Hong Kong, Shenzhen",
       href: "https://cuhk.edu.cn",
-      degree: "Bachelor's Degree of Computer Science (BEng)",
+      degree: "Bachelor's Degree of Computer Science",
       logoUrl: "/cuhk.png",
       start: "2019",
       end: "2023",
