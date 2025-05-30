@@ -66,16 +66,16 @@ export const DATA = {
 
   work: [
     {
-      company: "OmniAI",
-      href: "https://getomni.ai",
+      company: "BenchFlow",
+      href: "https://benchflow.ai",
       badges: [],
       location: "San Fan, CA",
-      title: "Founding Engineer #1",
-      logoUrl: "/omniai.webp",
-      start: "Aug 2024",
-      end: "Sep 2024",
+      title: "Founder",
+      logoUrl: "/benchflow.png",
+      start: "Sep 2024",
+      end: "Now",
       description:
-        "Data pipelines, AI SDKs, full-stack features, open-source maintainer. ",
+        "HuggingFace for AI evals ",
     },
     {
       company: "Tesla",
