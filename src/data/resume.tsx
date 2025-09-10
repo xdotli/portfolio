@@ -8,7 +8,7 @@ export const DATA = {
   location: "San Jose, CA",
   locationLink: "https://www.google.com/maps/place/san+jose",
   description:
-    "Student. Love building things, especially love building with great people. ",
+    "Love building things; love building with great people. ",
   summary: "AI Benchmarks.",
   avatarUrl: "/me.jpeg",
   skills: [
