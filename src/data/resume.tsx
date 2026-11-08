@@ -65,6 +65,18 @@ export const DATA = {
 
   work: [
     {
+      company: "Tesla",
+      href: "https://tesla.com",
+      badges: [],
+      location: "Fremont, CA",
+      title: "Software Engineer",
+      logoUrl: "/TSLA.svg",
+      start: "2024",
+      end: "2024",
+      description:
+        "Iterated UI and API features for Tesla Rental app using Angular and .NET. Migrated the entire Tesla Invoicing app from legacy design systems to tesla design system. Upgraded Angular 8 to Angular 15. Made refinements to the Tesla Design System. ",
+    },
+    {
       company: "OmniAI",
       href: "https://getomni.ai",
       badges: [],
@@ -77,16 +89,28 @@ export const DATA = {
         "Data pipelines, AI SDKs, full-stack features, open-source maintainer. ",
     },
     {
-      company: "Tesla",
-      href: "https://tesla.com",
+      company: "Dolby Laboratories",
+      href: "https://dolby.com/",
       badges: [],
-      location: "Fremont, CA",
-      title: "Software Engineer",
-      logoUrl: "/TSLA.svg",
-      start: "2024",
-      end: "2024",
+      location: "Shenzhen, China",
+      title: "Software Engineer Intern",
+      logoUrl: "/DLB.svg",
+      start: "2023",
+      end: "2023",
       description:
-        "Iterated UI and API features for Tesla Rental app using Angular and .NET. Migrated the entire Tesla Invoicing app from legacy design systems to tesla design system. Upgraded Angular 8 to Angular 15. Made refinements to the Tesla Design System. ",
+        "Shipped features in web portals and SDKs with .NET tuning 500k laptops annually. Improved customer satisfaction by 40% through cross-functional communication. ",
+    },
+    {
+      company: "Red Hat",
+      href: "https://redhat.com",
+      badges: [],
+      location: "Beijing, China",
+      title: "Software Engineer",
+      logoUrl: "/redhat.jpeg",
+      start: "2022",
+      end: "2022",
+      description:
+        "Built OpenShift Plugins with Golang and K8s APIs. Built features and e2e tests in OpenShift web console with React, Golang, and Cypress. Impacted 2 releases + 100M+ users on our infra. ",
     },
   ],
   education: [
