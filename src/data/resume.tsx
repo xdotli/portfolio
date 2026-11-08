@@ -65,16 +65,16 @@ export const DATA = {
 
   work: [
     {
-      company: "BenchFlow",
-      href: "https://benchflow.ai",
+      company: "OmniAI",
+      href: "https://getomni.ai",
       badges: [],
       location: "San Fan, CA",
-      title: "Founder",
-      logoUrl: "/benchflow.png",
-      start: "Sep 2024",
-      end: "Now",
+      title: "Founding Engineer #1",
+      logoUrl: "/omniai.webp",
+      start: "Aug 2024",
+      end: "Sep 2024",
       description:
-        "HuggingFace for AI evals ",
+        "Data pipelines, AI SDKs, full-stack features, open-source maintainer. ",
     },
     {
       company: "Tesla",
@@ -88,40 +88,8 @@ export const DATA = {
       description:
         "Iterated UI and API features for Tesla Rental app using Angular and .NET. Migrated the entire Tesla Invoicing app from legacy design systems to tesla design system. Upgraded Angular 8 to Angular 15. Made refinements to the Tesla Design System. ",
     },
-    {
-      company: "Dolby Laboratories",
-      href: "https://dolby.com/",
-      badges: [],
-      location: "Shenzhen, China",
-      title: "Software Engineer Intern",
-      logoUrl: "/DLB.svg",
-      start: "Feb 2023",
-      end: "May 2023",
-      description:
-        "Shipped features in web portals and SDKs with .NET tuning 500k laptops annually. Improved customer satisfaction by 40% through cross-functional communication. ",
-    },
-    {
-      company: "Red Hat",
-      href: "https://redhat.com",
-      badges: [],
-      location: "Beijing, China",
-      title: "Software Engineer",
-      logoUrl: "/redhat.jpeg",
-      start: "May 2022",
-      end: "Dec 2022",
-      description:
-        "Built OpenShift Plugins with Golang and K8s APIs. Built features and e2e tests in OpenShift web console with React, Golang, and Cypress. Impacted 2 releases + 100M+ users on our infra. ",
-    },
   ],
   education: [
-    {
-      school: "San José State University",
-      href: "https://sjsu.edu",
-      degree: "Master's Degree of Computer Science",
-      logoUrl: "/sjsu.svg",
-      start: "2023",
-      end: "2024",
-    },
     {
       school: "Chinese University of Hong Kong, Shenzhen",
       href: "https://cuhk.edu.cn",
