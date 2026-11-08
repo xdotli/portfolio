@@ -71,8 +71,8 @@ export const DATA = {
       location: "San Fan, CA",
       title: "Founding Engineer #1",
       logoUrl: "/omniai.webp",
-      start: "Aug 2024",
-      end: "Sep 2024",
+      start: "2024",
+      end: "2024",
       description:
         "Data pipelines, AI SDKs, full-stack features, open-source maintainer. ",
     },
@@ -83,8 +83,8 @@ export const DATA = {
       location: "Fremont, CA",
       title: "Software Engineer",
       logoUrl: "/TSLA.svg",
-      start: "May 2024",
-      end: "Aug, 2024",
+      start: "2024",
+      end: "2024",
       description:
         "Iterated UI and API features for Tesla Rental app using Angular and .NET. Migrated the entire Tesla Invoicing app from legacy design systems to tesla design system. Upgraded Angular 8 to Angular 15. Made refinements to the Tesla Design System. ",
     },
