@@ -81,7 +81,7 @@ export const DATA = {
       href: "https://getomni.ai",
       badges: [],
       location: "San Fan, CA",
-      title: "Founding Engineer #1",
+      title: "Founding Engineer",
       logoUrl: "/omniai.webp",
       start: "2024",
       end: "2024",
