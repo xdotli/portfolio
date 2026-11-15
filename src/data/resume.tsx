@@ -74,19 +74,19 @@ export const DATA = {
       start: "2024",
       end: "2024",
       description:
-        "Iterated UI and API features for Tesla Rental app using Angular and .NET. Migrated the entire Tesla Invoicing app from legacy design systems to tesla design system. Upgraded Angular 8 to Angular 15. Made refinements to the Tesla Design System. ",
+        "Code gen integration and evaluation; evaluated multiple models like Cohere Command R+ and Llama 3.1 on code generation performance. Migrated legacy applications as well.",
     },
     {
       company: "OmniAI",
       href: "https://getomni.ai",
       badges: [],
-      location: "San Fan, CA",
+      location: "San Francisco, CA",
       title: "Founding Engineer",
       logoUrl: "/omniai.webp",
       start: "2024",
       end: "2024",
       description:
-        "Data pipelines, AI SDKs, full-stack features, open-source maintainer. ",
+        "Scaled and maintained open source OCR library https://github.com/getomni-ai/zerox (11.9k stars). Joined as the first founding engineer.",
     },
     {
       company: "Dolby Laboratories",
@@ -98,7 +98,7 @@ export const DATA = {
       start: "2023",
       end: "2023",
       description:
-        "Shipped features in web portals and SDKs with .NET tuning 500k laptops annually. Improved customer satisfaction by 40% through cross-functional communication. ",
+        "Dolby Vision realtime. Dolby Vision Chromium integration. Dolby Vision Windows Laptop color profile management with C#. Windows and browser automation for QA testing - 500k+ laptops tested by this.",
     },
     {
       company: "Red Hat",
@@ -108,9 +108,9 @@ export const DATA = {
       title: "Software Engineer Intern",
       logoUrl: "/redhat.jpeg",
       start: "2022",
-      end: "2022",
+      end: "2023",
       description:
-        "Built OpenShift Plugins with Golang and K8s APIs. Built features and e2e tests in OpenShift web console with React, Golang, and Cypress. Impacted 2 releases + 100M+ users on our infra. ",
+        "OpenShift Operator Lifecycle Management. OpenShift Operator Console Plugin frontend and example apps for customer success. Internal CI/CD pipelines.",
     },
   ],
   education: [
