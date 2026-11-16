@@ -1,5 +1,5 @@
 import { Icons } from "@/components/icons";
-import { CodeIcon, HomeIcon, NotebookIcon, PencilLine } from "lucide-react";
+import { CodeIcon, HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
   name: "Xiangyi Li",
@@ -27,7 +27,6 @@ export const DATA = {
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
     { href: "/#projects", icon: CodeIcon, label: "Projects" },
-    { href: "/blog", icon: PencilLine, label: "Blog" },
   ],
   contact: {
     email: "xdotli@outlook.com",
@@ -66,63 +65,55 @@ export const DATA = {
 
   work: [
     {
-      company: "BenchFlow",
-      href: "https://benchflow.ai",
-      badges: [],
-      location: "San Fan, CA",
-      title: "Founder",
-      logoUrl: "/benchflow.png",
-      start: "Sep 2024",
-      end: "Now",
-      description:
-        "HuggingFace for AI evals ",
-    },
-    {
       company: "Tesla",
       href: "https://tesla.com",
       badges: [],
       location: "Fremont, CA",
       title: "Software Engineer",
       logoUrl: "/TSLA.svg",
-      start: "May 2024",
-      end: "Aug, 2024",
+      start: "2024",
+      end: "2024",
       description:
-        "Iterated UI and API features for Tesla Rental app using Angular and .NET. Migrated the entire Tesla Invoicing app from legacy design systems to tesla design system. Upgraded Angular 8 to Angular 15. Made refinements to the Tesla Design System. ",
+        "Code gen integration and evaluation; evaluated multiple models like Cohere Command R+ and Llama 3.1 on code generation performance. Migrated legacy applications as well.",
+    },
+    {
+      company: "OmniAI",
+      href: "https://getomni.ai",
+      badges: [],
+      location: "San Francisco, CA",
+      title: "Founding Engineer",
+      logoUrl: "/omniai.webp",
+      start: "2024",
+      end: "2024",
+      description:
+        "Scaled and maintained open source OCR library https://github.com/getomni-ai/zerox (11.9k stars). Joined as the first founding engineer.",
     },
     {
       company: "Dolby Laboratories",
       href: "https://dolby.com/",
       badges: [],
       location: "Shenzhen, China",
-      title: "Software Engineer Intern",
+      title: "Software Engineer",
       logoUrl: "/DLB.svg",
-      start: "Feb 2023",
-      end: "May 2023",
+      start: "2023",
+      end: "2023",
       description:
-        "Shipped features in web portals and SDKs with .NET tuning 500k laptops annually. Improved customer satisfaction by 40% through cross-functional communication. ",
+        "Dolby Vision realtime. Dolby Vision Chromium integration. Dolby Vision Windows Laptop color profile management with C#. Windows and browser automation for QA testing - 500k+ laptops tested by this.",
     },
     {
       company: "Red Hat",
       href: "https://redhat.com",
       badges: [],
       location: "Beijing, China",
-      title: "Software Engineer",
+      title: "Software Engineer Intern",
       logoUrl: "/redhat.jpeg",
-      start: "May 2022",
-      end: "Dec 2022",
+      start: "2022",
+      end: "2023",
       description:
-        "Built OpenShift Plugins with Golang and K8s APIs. Built features and e2e tests in OpenShift web console with React, Golang, and Cypress. Impacted 2 releases + 100M+ users on our infra. ",
+        "OpenShift Operator Lifecycle Management. OpenShift Operator Console Plugin frontend and example apps for customer success. Internal CI/CD pipelines.",
     },
   ],
   education: [
-    {
-      school: "San José State University",
-      href: "https://sjsu.edu",
-      degree: "Master's Degree of Computer Science",
-      logoUrl: "/sjsu.svg",
-      start: "2023",
-      end: "2024",
-    },
     {
       school: "Chinese University of Hong Kong, Shenzhen",
       href: "https://cuhk.edu.cn",
